@@ -16,3 +16,21 @@ h1 {
     text-align: center;
     margin: 40px 0 60px 0;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#search-input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
